@@ -1,0 +1,153 @@
+body
+{
+    display: block;
+    background: url(Photo/background.jpg);
+}
+
+p 
+{
+    text-indent: 10px; /* Отступ первой строки в пикселах */   
+}
+
+a:hover 
+{
+    background: #838383; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+} 
+
+.link
+{
+    color: white;
+}
+.link2
+{
+    color: rgb(0, 0, 0);
+}
+
+.heading 
+{
+    padding: 10px; /* Поля вокруг текста  */
+    background: #8b8b8b; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center;
+    font-size: 30px; /* Размер шрифта */ 
+    text-shadow: #aaaaaa 1px 1px 0, #aaaaaa 1.5px 1.5px 0; 
+    font-weight: 900;
+}
+.heading2 
+{
+    color: rgb(0, 0, 0); /* Цвет текста */
+    text-align: center;
+    font-size: 30px; /* Размер шрифта */ 
+    font-weight: 900;   
+    margin-top: 20px;
+}
+
+.linkblock
+{
+    background: #ffffff; /* Цвет фона */
+    border: 1px solid #000; /* Параметры границы */
+    border-radius: 10px;   
+    padding: 0px 10px; /* Поля вокруг картинки */
+    margin: 60px 0px 5px 0px; /* Отступы */
+    width: 150px; /* Ширина */
+    font-size: 20px; /* Размер шрифта */
+    text-align: left;
+    float: left;
+}
+.linkblock > a 
+{
+    text-decoration: none;
+}
+
+.block
+{     
+    background: #F3F0E9; /* Цвет фона */
+    border: 2px dashed #000; /* Параметры границы */
+    border-radius: 10px;  
+    padding: 0px 10px; /* Поля вокруг картинки */
+    margin: 60px 0px 5px 0px; /* Отступы */
+    width: 130px; /* Ширина */
+    font-size: 15px; /* Размер шрифта */
+    text-align: left;
+    float: right;
+    transform: 1s all;
+}
+
+.blockheading
+{
+    text-align: center;
+    font-size: 17px; /* Размер шрифта */
+    font-weight: 900;
+}
+
+.block2
+{      
+    clear: right;
+    background: #F3F0E9; /* Цвет фона */
+    border: 2px dashed #000; /* Параметры границы */
+    border-radius: 10px;   
+    padding: 0px 10px; /* Поля вокруг картинки */
+    margin: 500px 0px 5px 0px; /* Отступы */
+    width: 130px; /* Ширина */
+    font-size: 15px; /* Размер шрифта */
+    text-align: left;
+    float: right;
+}
+.blockheading2
+{
+    text-align: center;
+    font-size: 17px; /* Размер шрифта */
+    font-weight: 900;
+}
+
+.text
+{ 
+    font-size: 20px; /* Размер шрифта */ 
+    margin-left: 190px;
+    margin-right: 170px;
+    margin-bottom: 50px;
+}
+
+.img
+{
+    transition: 0.5s all;
+    display: block;
+    margin: auto;
+}
+.img:hover
+{
+    opacity: 0.6;
+}
+
+.imgtext
+{
+    text-align: center;
+    color: rgba(134, 130, 130, 0.774); /* Цвет текста */
+    font-size: 14px; /* Размер шрифта */ 
+    font-weight: 900;
+} 
+
+.center
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.block3
+{
+    position: fixed;
+    left: 0px; bottom: 0px;
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center;    
+    margin: auto;
+    width: 100%;
+    font-size: 20px; /* Размер шрифта */
+}
+.search
+{
+    width: 200px;
+    height: 20px;
+}
